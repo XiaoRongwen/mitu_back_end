@@ -66,6 +66,7 @@ app.use(
             { url: /^\/douyin\/.*/ },
             { url: /^\/file\/.*/ },
             { url: /^\/question\/.*/ },
+            { url: /^\/api\/get_questions_list/ },
         ],
     })
 )
