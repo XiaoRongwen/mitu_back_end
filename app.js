@@ -45,7 +45,7 @@ app.post('/uploads', upload, function (req, res, next) {
         if (!req.file) {
             throw new Error('文件上传失败')
         }
-        res.send(`http://www.mitudev.cn/uploads/${req.file.filename}`) // 将保存后的文件名称发送给客户端
+        res.send(`http://www.mitudev.cn/api/uploads/${req.file.filename}`) // 将保存后的文件名称发送给客户端
     } catch (err) {
         next(err)
     }
