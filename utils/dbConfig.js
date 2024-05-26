@@ -1,5 +1,5 @@
 module.exports = {
-    host: 'localhost', //主机
+    host: 'www.mitudev.cn', //主机
     user: 'root', //用户名
     password: '54.niyejx', //密码
     database: 'blog_by_rong', //数据库
